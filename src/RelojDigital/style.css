@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    background: url(reloj.jpg) #210349;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: antiquewhite;
+}
+
+.wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.widget{
+    width: 40%;
+}
+
+.widget p{
+    display: inline-block;
+    line-height: 2rem;
+}
+
+.fecha{
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
+    background: rgba(0, 0, 0, .5);
+    padding: 20px;
+    width: 100%;
+}
+
+.reloj{
+    width: 100%;
+    padding: 20px;
+    font-size: 3rem;
+    text-align: center;
+    background: rgba(0, 0, 0, .5);
+}
+
+.reloj .cajaSegundos{
+    display: inline-block;
+}
+
+.reloj .segundos,
+.reloj .ampm{
+    font-size: 1rem;
+    display: block;
+}
+
